@@ -17,7 +17,7 @@ import person_project from "./assets/images/Projects/person.png";
 import { HiCodeBracket } from "react-icons/hi2";
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { BsInstagram,BsLinkedin,BsTwitter } from "react-icons/bs";
 import { HiOutlineHome } from "react-icons/hi";
 import { BiUser } from "react-icons/bi";
 import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
@@ -165,9 +165,9 @@ export const content = {
         subtitle: "GET IN TOUCH",
         social_media: [
             {
-                text: "codeaprogram@gmail.com",
+                text: "mcelil.altiparmak@gmail.com",
                 icon: GrMail,
-                link: "mailto:codeaprogram@gmail.com",
+                link: "mailto:mcelil.altiparmak@gmail.com",
             },
             {
                 text: "+91 1234 56778",
@@ -175,9 +175,19 @@ export const content = {
                 link: "https://wa.me/1234567890",
             },
             {
-                text: "codeaprogram",
+                text: "celil.altiparmak",
                 icon: BsInstagram,
-                link: "https://www.instagram.com/codeaprogram/",
+                link: "https://www.instagram.com/celil.altiparmak/",
+            },
+            {
+                text: "celil.altiparmak",
+                icon: BsLinkedin,
+                link: "https://www.instagram.com/celil.altiparmak/",
+            },
+            {
+                text: "celil.altiparmak",
+                icon: BsTwitter,
+                link: "https://www.instagram.com/celil.altiparmak/",
             },
         ],
     },

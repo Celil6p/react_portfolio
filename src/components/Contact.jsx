@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_05frzh8', 'template_z7pqtsc', form.current, 'M2I83dwk1MzK1h0U6'
       )
       .then(
         (result) => {
@@ -21,7 +21,7 @@ const Contact = () => {
           // Clear all input field values
           form.current.reset();
           // Success toast message
-          toast.success("Email send Successfully");
+          toast.success("Email sent Successfully");
         },
         (error) => {
           console.log(error.text);
@@ -54,20 +54,20 @@ const Contact = () => {
               name="from_name"
               placeholder="Name"
               required
-              className="border placeholder:text-slate-400 bg-primaryLinear border-slate-400 p-3 rounded"
+              className="border text-white placeholder:text-slate-400 bg-primaryLinear border-slate-400 p-3 rounded"
             />
             <input
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Your Email"
               required
-              className="border placeholder:text-slate-400 bg-primaryLinear border-slate-400 p-3 rounded"
+              className="border text-white placeholder:text-slate-400 bg-primaryLinear border-slate-400 p-3 rounded"
             />
             <textarea
               name="message"
               placeholder="Message"
-              className="border placeholder:text-slate-400 bg-primaryLinear border-slate-400 p-3 rounded h-44"
+              className="border text-white placeholder:text-slate-400 bg-primaryLinear border-slate-400 p-3 rounded h-44"
               required
             ></textarea>
             <button
