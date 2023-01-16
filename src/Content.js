@@ -11,20 +11,18 @@ import python from "./assets/images/Skills/python.png";
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
-import person_project from "./assets/images/Projects/person.png";
 
 // import icons from react-icons
-import { HiCodeBracket } from "react-icons/hi2";
+
+import { HiCodeBracket,HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram,BsLinkedin,BsTwitter } from "react-icons/bs";
-import { HiOutlineHome } from "react-icons/hi";
+import { MdArrowForward } from "react-icons/md";
+import { BsLinkedin,BsTwitter } from "react-icons/bs";
+import { HiOutlineHome,HiOutlineMail } from "react-icons/hi";
 import { BiUser } from "react-icons/bi";
-import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 import { CgWebsite } from "react-icons/cg";
-import { HiOutlineMail } from "react-icons/hi";
-import { IoColorPaletteOutline } from "react-icons/io5";
-import { IoLogoTux } from "react-icons/io5";
+import { IoColorPaletteOutline,IoLogoTux } from "react-icons/io5";
+import { FaTelegramPlane } from "react-icons/fa";
 
 export const content = {
     nav: [
@@ -143,7 +141,7 @@ export const content = {
     Projects: {
         title: "Projects",
         subtitle: "MY CREATION",
-        image: person_project,
+        image: Hero_person,
         project_content: [
             {
                 title: "Gym Website",
@@ -170,24 +168,19 @@ export const content = {
                 link: "mailto:mcelil.altiparmak@gmail.com",
             },
             {
-                text: "+91 1234 56778",
-                icon: MdCall,
-                link: "https://wa.me/1234567890",
+                text: "Telegram",
+                icon: FaTelegramPlane,
+                link: "https://t.me/CelilAltiparmak",
             },
             {
-                text: "celil.altiparmak",
-                icon: BsInstagram,
-                link: "https://www.instagram.com/celil.altiparmak/",
-            },
-            {
-                text: "celil.altiparmak",
+                text: "LinkedIn",
                 icon: BsLinkedin,
-                link: "https://www.instagram.com/celil.altiparmak/",
+                link: "https://www.linkedin.com/in/muhammed-celil-altiparmak-b78097159/",
             },
             {
-                text: "celil.altiparmak",
+                text: "Twitter",
                 icon: BsTwitter,
-                link: "https://www.instagram.com/celil.altiparmak/",
+                link: "https://twitter.com/ALTPRMK_Celil",
             },
         ],
     },
