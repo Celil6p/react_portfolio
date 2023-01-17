@@ -15,11 +15,12 @@ const customStyles = {
     maxWidth: "23rem",
     width: "90%",
     background: "linear-gradient(210deg, rgba(237,199,80,1) 11%, rgba(255,192,0,1) 50%, rgba(251,255,161,1) 89%)", 
-    
+    zIndex: "99",
   },
   overlay: {
     background: "rgba(5, 5, 5, 0.75)",
     padding: "2rem",
+    zIndex: "99",
   },
 };
 Modal.setAppElement("#root");
@@ -63,9 +64,6 @@ const Skills = () => {
 
       {/* content */}
       <div className="md:container px-5  py-14">
-        <h2 className="title" data-aos="fade-down">
-          {skills.title}
-        </h2>
         <h4 className="subtitle" data-aos="fade-down">
           {skills.subtitle}
         </h4>
@@ -94,7 +92,6 @@ const Skills = () => {
               </div>
               <div>
                 <h6>{skill.name}</h6>
-                <p className="text-subtitle_secondary">{skill.para}</p>
                 <div className="text-xl absolute top-3 right-3">
                   {createElement(skills.icon)}
                 </div>

@@ -1,16 +1,17 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import JavaScript from "./assets/images/Skills/javascript.png";
+import bash from "./assets/images/Skills/bash.png";
+import firebase from "./assets/images/Skills/firebase.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import tailwindcss from "./assets/images/Skills/tailwindcss.png";
 
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
+import pointing from "./assets/images/Projects/pointing.png";
 
 // import icons from react-icons
 
@@ -23,6 +24,8 @@ import { BiUser } from "react-icons/bi";
 import { CgWebsite } from "react-icons/cg";
 import { IoColorPaletteOutline,IoLogoTux } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
+import { AiOutlineGithub } from "react-icons/ai";
+
 
 export const content = {
     nav: [
@@ -56,84 +59,76 @@ export const content = {
         title: "Web Developer",
         firstName: "CELİL",
         LastName: "ALTIPARMAK",
-        btnText: "Hire Me",
+        btnText: "My Resume",
         image: Hero_person,
         hero_content: [
             {
-                count: "1+",
-                text: "Years of Experinse in Web development",
+                count: "",
+                text: '"A new web developer with a desire to create innovative and engaging digital experiences that drive results"',
             },
             {
-                count: "5+",
+                count: "4+",
                 text: "Projects Worked in my career",
             },
         ],
     },
     skills: {
-        title: "Skills",
         subtitle: "MY TOP SKILLS",
         skills_content: [
             {
-                name: "Figma",
-                para: "Lorem ipsum text  dummy",
-                logo: figma,
-                text: "Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, ame. Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est beatae quos rem."
+                name: "JavaScript",
+                logo: JavaScript,
+                text: "I am proficient in JavaScript, with experience in both front-end and back-end development. I have a solid understanding of web development concepts and frameworks such as React, Angular and Node.js. My expertise in JavaScript allows me to deliver efficient and high-quality web applications that are optimized for both desktop and mobile devices."
             },
             {
-                name: "Node js",
-                para: "Lorem ipsum text  dummy",
+                name: "Node.js",
                 logo: nodejs,
-                text: "Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, ame. Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est beatae quos rem."
+                text: "I have a strong understanding of Node.js and its various modules and libraries. I have experience building web applications and APIs using Node.js and have a good understanding of JavaScript. I am always eager to learn new skills and explore new technologies in the field."
 
             },
             {
-                name: "Adobe Photoshop",
-                para: "Lorem ipsum text  dummy",
-                logo: ps,
-                text: "Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, ame. Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est beatae quos rem."
+                name: "Firebase",
+                logo: firebase,
+                text: "I am experienced in Firebase, including authentication, real-time database and cloud storage. I am able to provide seamless user experience. Always eager to learn new Firebase features, I am confident in my ability to develop effective solutions."
 
             },
             {
-                name: "React js",
-                para: "Lorem ipsum text  dummy",
+                name: "React.js",
                 logo: reactjs,
-                text: "Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, ame. Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est beatae quos rem."
+                text: "I am experienced in React.js, skilled in using libraries and tools like Redux and Context API. I am familiar with latest features and best practices in React.js and stay updated on new developments. Confident in my ability to develop efficient and user-friendly React.js applications including this portfolio application."
 
             },
             {
-                name: "Sketch",
-                para: "Lorem ipsum text  dummy",
-                logo: sketch,
-                text: "Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, ame. Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est beatae quos rem."
+                name: "Bash",
+                logo: bash,
+                text: "I have a basic understanding of Bash scripting language and have some experience using it for simple tasks. I am familiar with the basic syntax and commands, and I am interested in learning more about this language and its capabilities."
 
             },
             {
-                name: "Python",
-                para: "Lorem ipsum text  dummy",
-                logo: python,
-                text: "Lorem ipsum dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, ame. Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est beatae quos rem."
+                name: "TailwindCSS",
+                logo: tailwindcss,
+                text: "I am familiar with TailwindCSS, a popular utility-first CSS framework that allows for rapid prototyping and easy customization of designs. With my knowledge of TailwindCSS, I can create visually appealing and responsive designs quickly and efficiently. I am excited to use my knowledge of TailwindCSS to improve the user experience and enhance the overall look and feel of web projects."
 
             },
         ],
         icon: MdArrowForward,
     },
     services: {
-        title: "Services",
         subtitle: "WHAT I OFFER",
         service_content: [
             {
                 title: "Web Development",
-                para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+                para: "As a React developer, I can deliver high-quality, robust and efficient web applications. My expertise in React and JavaScript, along with my ability to quickly learn and adapt to new technologies, enables me to deliver solutions that not only meet but exceed customer expectations.",
                 icon: HiCodeBracket,
             },
             {
-                title: "ui / ux DESIGNING",
-                para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+                title: "UI/UX Designing",
+                para: "As a UI/UX designer, I specialize in creating user-friendly and visually appealing designs using the latest technologies such as Tailwind and CSS. I understand the importance of usability and how it impacts the success of a product or service.",
                 icon: IoColorPaletteOutline,
             },
             {
-                title: "PhotoShop Editing",
-                para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+                title: "DevOps",
+                para: "As a hobbyist in the DevOps field, I know Bash scripting language and have experience deploying personal applications on Raspberry Pi. I am passionate about automating tasks and improving the efficiency of the development and deployment process.",
                 icon: IoLogoTux,
             },
         ],
@@ -141,31 +136,41 @@ export const content = {
     Projects: {
         title: "Projects",
         subtitle: "MY CREATION",
-        image: Hero_person,
+        image: pointing,
         project_content: [
             {
-                title: "Gym Website",
+                title: "Circular Music Player",
                 image: project1,
+                explanation: "In this project it was challenging for me to understand the concept of interactive progress bar. This project helped me understand the importance of good algorithms.  ",
+                link: "https://celil6p.github.io/audio-player/ "
             },
             {
-                title: "Social Media web",
+                title: "Relaxing White Noises",
                 image: project2,
+                explanation: 'The things I learned from the "Circular Music Project" helped me to write this project from ground-up with my programmer friend Eren Eroğlu. We put a lot of effort in this project at that time',
+                link: "https://eren-celil.github.io/relaxing-white-noises/"
             },
             {
-                title: "Creative Website",
+                title: "Rock Paper Scissors",
                 image: project3,
+                explanation: "After I completely learned html/CSS/JavaScript basics properly this was my first project. The code might be complete scramble but I was so proud when I complete this without looking any guide",
+                link: "https://celil6p.github.io/rps/"
             },
         ],
     },
 
     Contact: {
         title: "Contect Me",
-        subtitle: "GET IN TOUCH",
         social_media: [
             {
                 text: "mcelil.altiparmak@gmail.com",
                 icon: GrMail,
                 link: "mailto:mcelil.altiparmak@gmail.com",
+            },
+            {
+                text: "Github",
+                icon: AiOutlineGithub,
+                link: "https://github.com/Celil6p",
             },
             {
                 text: "Telegram",

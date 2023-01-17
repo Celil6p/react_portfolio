@@ -1,5 +1,5 @@
 // import content
-import { useEffect } from "react";
+import Resume from "../assets/images/Resume/resume.pdf"
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
@@ -12,7 +12,7 @@ const Hero = () => {
           data-aos-delay="1200"
           className="absolute h-full md:w-4/12 w-full top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
-          <h1 className="md:rotate-90 md:absolute mt-12 ml-20 top-[35%] right-[-43%] text-[#EAF2FA]">
+          <h1 className="md:rotate-90 md:absolute sm:mt-12 mt-6 ml-20 top-[35%] right-[-43%] text-[#EAF2FA]">
             {hero.firstName}{" "}
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <button className="btn bg-bg_light_primary text-dark_primary hover:text-bg_light_primary hover:bg-dark_primary">{hero.btnText}</button>
+          <a href={Resume} target="_blank"><button className="btn bg-bg_light_primary text-dark_primary hover:text-bg_light_primary hover:bg-dark_primary">{hero.btnText}</button></a>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
